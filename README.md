@@ -17,18 +17,17 @@ npm run dev
 
 # build for production with minification
 npm run build
+```
 
-# build for production and view the bundle analyzer report
-npm run build --report
+Make sure that you have installed electron.
+```bash
+cnpm install electron 
+electron --version
+```
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+Then you could test electron
+```bash
+electron dist
 ```
 
 ## How to create 
@@ -179,6 +178,5 @@ Fix it as `assetsPublicPath: './'`
 
 All job have been done !
 
-
-
-
+> Smileyan
+> 2020.2.5
