@@ -179,7 +179,7 @@ app.on('activate', function () {
 // code. You can also put them in separate files and require them here.
 ```
 
-Finally, edit file `config/index.js` and find `assetsPublicPath: './'` 
+Finally, edit file `config/index.js` and find `assetsPublicPath: './'` in `build` 
 Fix it as `assetsPublicPath: './'`
 
 All job have been done !
