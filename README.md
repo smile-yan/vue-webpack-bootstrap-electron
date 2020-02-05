@@ -30,6 +30,12 @@ Then you could test electron
 electron dist
 ```
 
+Package .exe File
+```bash
+npm run build
+npm run pack:win
+```
+
 ## How to create 
 First of all, make sure that you have installed node.js(version>=8.0).
 
